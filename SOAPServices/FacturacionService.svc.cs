@@ -66,6 +66,7 @@ namespace SOAPServices
         public ICollection<Factura> ListarFacturas()
         {
             return facturaDAO.ListarTodos();
+            //dfg
         }
    }
     
